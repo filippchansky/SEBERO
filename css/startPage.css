@@ -1,0 +1,43 @@
+.start__container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__content {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn__registration {
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: .5s;
+}
+.btn__signup {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.start__content button:hover {
+    background-color: black;
+    color: white;
+}
+
+.start__content a {
+    padding: 10px;
+    color: unset;
+}

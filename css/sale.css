@@ -1,0 +1,92 @@
+.contanier__btn-add {
+    max-width: 500px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contanier__btn-add button {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.contanier__btn-add button:hover {
+    background-color: gray;
+}
+
+
+.btn-back {
+    opacity: 0;
+}
+
+.btn-back a {
+    padding: 15px;
+    color: black;
+}
+
+.opacityBtn {
+    opacity: 0;
+}
+
+
+.opacity1 {
+    opacity: 1;
+}
+
+.opacity0 {
+    display: none;
+}
+
+/* ------------------- */
+
+.main h1 {
+    width: 410px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 50px auto;
+}
+
+.table_tobacco {
+    width: 100%;
+}
+
+
+
+.container_table_tobacco {
+    margin: auto;
+    padding: 0 15px;
+}
+
+.table_tobacco th, .table_tobacco td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table_tobacco th, .table_tobacco td {
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+
+.table_tobacco th {
+    background-color: black;
+    color: white;   
+}
+
+.table_tobacco tr:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+.update-Btn {
+    color: blue;
+}
+
+.select__name {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+

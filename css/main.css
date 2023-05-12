@@ -1,0 +1,57 @@
+.main h1 {
+    width: 410px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 50px auto;
+}
+
+.table_tobacco {
+    width: 100%;
+    transform: translateX(-1600px);
+    transition: 1s;
+}
+
+.table_tobacco-anime {
+    transform: translateX(0);
+}
+
+.table_logo {
+    transition: 2s;
+    opacity: 0;
+}
+
+.table_logo-anime {
+    opacity: 1;
+}
+
+.container_table_tobacco {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.table_tobacco th, .table_tobacco td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table_tobacco th, .table_tobacco td {
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+
+.table_tobacco th {
+    background-color: black;
+    color: white;   
+}
+
+.table_tobacco tr:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+.update-Btn {
+    color: blue;
+}

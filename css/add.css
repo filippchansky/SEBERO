@@ -1,0 +1,93 @@
+.container_add-sale {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.container_add-sale h1 {
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 50px auto;
+}
+
+.container_add {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.container_add h1 {
+    width: 500px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 50px auto;
+}
+
+.add_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.add_form input, select {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px ;
+}
+
+.add_form p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.input_title {
+    height: 30px;
+}
+
+
+.input_description {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 80px;
+    margin: 10px 0px 10px 0px ;
+}
+
+.input_price {
+    max-width: 100px;
+    margin: 0 auto;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.input_balance {
+    padding: 10px;
+    max-width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn_add_create {
+    width: 170px;
+    height: 36px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid black;
+    border-radius: 5px; 
+    margin: 0 auto;
+}
